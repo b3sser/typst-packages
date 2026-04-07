@@ -15,34 +15,13 @@
 - All auto-calculation can be overwritten (see `/characters/README.md`)
 - Various Customization Options (see below)
 
-### Planned Features / Roadmap
-- Further Customization Options, Alternate or Reduced Sheets (gradually over multiple versions)
-- Support for A4-Paper (maybe)
-- 2024 Sheet (maybe)
-- pdf interactions (maybe)
-
 ## Example:
 ![three pages of a finished character sheet for Person MacPersonface](example.png)
 
 For example code, please refer to `example.typ`.
 
-## Installation
-**From Typst Universe** (recommended):
-
-```typst init @preview/tressym-dnd```
-(some systems may require adding `:0.2.3`)
-
-**From Github:**
-- Clone the repo to your local typst package directory as explained [here](https://github.com/typst/packages/blob/main/README.md#local-packages)
-- Run `typst init @local/tressym-dnd`
-- Change `#import "@preview/tressym-dnd:0.2.3": *` to `#import "@local/tressym-dnd:0.2.3": *` at the beginning of your character file
-
-OR
-
-- Clone the repo to local directory of your choosing
-- Change `#import "@preview/tressym-dnd:0.2.3": *` to `#import "../tressym.typ": *` at the beginning of your character file
-
 ## Usage
+0. ```typst init @preview/tressym-dnd``` (some systems may require adding `:0.2.3`)
 1. Make a copy of `example.typ`, `empty.typ` or `empty-mini.typ`.
     This can have any filename you'd like.
 2. Edit the SETTINGS section to your liking
