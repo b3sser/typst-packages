@@ -15,6 +15,12 @@
 - All auto-calculation can be overwritten (see `/characters/README.md`)
 - Various Customization Options (see below)
 
+### Planned Features / Roadmap
+- Further Customization Options, Alternate or Reduced Sheets (gradually over multiple versions)
+- Support for A4-Paper (maybe)
+- 2024 Sheet (maybe)
+- pdf interactions (maybe)
+
 ## Example:
 ![three pages of a finished character sheet for Person MacPersonface](example.png)
 
@@ -63,7 +69,7 @@ These are not listed in `example` or `empty`, as to not clutter those, so here i
 - Stat Modifiers: `strmod`, `dexmod`, `conmod`, `intmod`, `wismod`, `chamod` (do not add `+`)
 - Save Modifiers: `strsavemod`, `dexsavemod`, ...
     - for filling the circles correctly, a normal save proficiency entry is still needed, only the number changes with the overwrite
-- Skill Modifiers: `acrobaticsmod`, `animal_handlingmod`, `arcanamod`, ...
+- Skill Modifiers: `acrobaticsmod`, `animal-handlingmod`, `arcanamod`, ...
     - for filling the circles correctly, a normal proficiency entry is still needed, only the number changes with the overwrite
     - note that overwriting skill mods will also affect the passive skills, unless you overwrite those as well
 - Weapons: No need to overwrite, just use the option without auto-calculation
