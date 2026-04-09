@@ -125,7 +125,7 @@
 /* * * IMAGES * * */
   // paths relative to this file
   appearance: image("./img/person.png", width:162pt,height:220pt, fit: "contain"),
-  symbol: image("./img/symbol.png", width:140.5pt,height:121pt, fit: "contain"),
+  //symbol: image("./img/symbol.png", width:140.5pt,height:121pt, fit: "contain"),
   symbol-name: "",
 /* * * TEXT FIELDS * * */
   backstory: [
